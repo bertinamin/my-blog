@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+title { font-family: calibri;}
+.heading {    text-align: center;      
+}
+h2 {   font-family: calibri;
+color: gray;}
+
+h1 {  font-family: calibri;
+color: black;}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em auto;
+}
+.container {
+    font-size: 5px;
+    border: 1px solid white;
+    box-shadow:0px 0px 2px 2px;
+    color: hsl(229, 6%, 66%) ;
+
+    height: 80vh;
+    width: 80%;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.box{
+    height: 50px;
+    width: 70px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 2px;
+    font-size: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box img{
+    height: 10px;
+    width: 10px;
+    align-items: flex-end;
+    align-content: flex-end;
+    align-self: flex-end;
+    margin-top: 10px;
+}
+
+
+.box .box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+p { color: gray;
+     font-family: calibri;
+}
+
+.box1 { 
+    background-color:white;
+    border: 1px solid snow;
+    box-shadow: 1px 1px 1px 1px lightslategrey;
+    border-top-color:hsl(180, 62%, 55%);
+    font-size: 4px;
+
+}
+
+
+.box3 { 
+background-color: white;
+display:inline-block;
+border: 1px solid snow;
+box-shadow: 1px 1px 1px 1px lightslategrey; 
+border-top-color: hsl(212, 86%, 64%);
+height: 50px;
+height: 50px;
+width: 70px;
+padding: 5px;
+margin: 10px;
+border-radius: 2px;
+font-size: 4px;
+display: flex;
+flex-direction: column
+
+}
+
+.box11 {  
+border: 1px solid snow;
+box-shadow: 1px 1px 1px 1px lightslategray;
+border-radius:2px;
+border-top-color:  hsl(0, 78%, 62%);
+
+}
+
+.box12 {   
+border: 1px solid snow;
+box-shadow: 1px 1px 1px 1px lightslategrey;
+border-top-color: hsl(34, 97%, 64%);
+border-radius:2px; 
+}
+
+
+.image4 {     
+    height: 10px;
+    width: 10px;
+    align-items: flex-end;
+    align-content: flex-end;
+    align-self: flex-end;
+    margin-top: 10px;  
+}     
+
+
+
+  
